@@ -145,33 +145,27 @@ Open your web browser and visit http://localhost:5173 to see the website in acti
 
 The project structure is organized as follows:
 
-Dashboard_Task/
-│
-├── client/               # Client-side codebase (React)
-│   ├── public/
-│   ├── src/
-|   |   ├── assets/       # Static assets
-│   │   ├── components/   # React components
-│   │   ├── scenes/       # Different pages for the dashboard
-│   │   ├── state/        # API service functions
-│   │   ├── main.jsx      # Main application component
-|   ├── .env              # Environment variables (not committed to version control)
-|   ├── package.json      # Client-side dependencies and scripts
-│   │   └── ...
-│   └── ...
-│
-├── server/               # Server-side codebase (Node.js, Express)
-│   ├── controllers/      # Route controllers
-│   ├── models/           # Database models (Mongoose)
-│   ├── routes/           # API routes
-│   ├── data/             # Raw data used to populate the database
-│   ├── app.js            # Express app configuration
-|   ├── .env              # Environment variables (not committed to version control)
-|   ├── package.json      # Server-side dependencies and scripts
-scripts
-│   │   └── ...
-│   └── ...
+Dashboard_Task:
+1-client: Client-side codebase (React)
+(A)public
+(B)src
+(B1)assets: Static assets
+(B2)components: React components
+(B3)scenes: Different pages for the dashboard
+(B4)state: API service functions
+(B5)main.jsx: Main application component
+(C).env: Environment variables (not committed to version control)
+(D)package.json: Client-side dependencies and scripts
 
+2-server: Server-side codebase (Node.js, Express)
+(A)controllers: Route controllers
+(B)models: Database models (Mongoose)
+(C)routes: API routes
+(D)data: Raw data used to populate the database
+(E)app.js: Express app configuration
+(F).env: Environment variables (not committed to version control)
+(G)package.json: Server-side dependencies and scripts
+(Z)more scripts
 
 This structure separates the client and server codebases for better organization and modularity.
 
