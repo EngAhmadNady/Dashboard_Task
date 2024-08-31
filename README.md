@@ -1,4 +1,4 @@
-# react Dashboard Task (node, express, and mongo for providing fast, stable, and suitable backend environment to teset react project)
+# React Dashboard Task (node, express, and mongo for providing fast, stable, and suitable backend environment to teset react project)
 
 ![Dashboard Screenshot](client/public/readme_assets/screenshot.jpg) 
 
@@ -171,6 +171,7 @@ Dashboard_Task/
 scripts
 │   │   └── ...
 │   └── ...
+
 
 This structure separates the client and server codebases for better organization and modularity.
 
