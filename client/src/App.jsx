@@ -13,6 +13,7 @@ import {
 import { themeSettings } from "./theme";
 import Layout from "./scenes/Layout";
 import Transactions from "./scenes/Transactions";
+import Dashboard from "./scenes/Dashboard";
 import Overview from "./scenes/Overview";
 import Daily from "./scenes/Daily";
 import Breakdown from "./scenes/Breakdown";
@@ -20,7 +21,8 @@ import Breakdown from "./scenes/Breakdown";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<Layout />}>
-      <Route path="/" element={<Navigate to="/transactions" replace />} />
+      <Route path="/" element={<Navigate to="/dashboard" replace />} />
+      <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/transactions" element={<Transactions />} />
       <Route path="/overview" element={<Overview />} />
       <Route path="/daily" element={<Daily />} />

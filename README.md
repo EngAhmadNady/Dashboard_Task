@@ -18,7 +18,7 @@ This user interface for a reports dashboard that displays various data visualiza
 
 ## Demo
 
-You can see the task in live recorded video at https://www.canva.com/design/DAGPcrVg5fU/R2643Q7r03zGto16wdomGA/watch?utm_content=DAGPcrVg5fU&utm_campaign=designshare&utm_medium=link&utm_source=editor
+You can see the task in live recorded video at https://www.canva.com/design/DAGPm2sqW40/ueV9w4BUVTf3_ZuW1nbW9g/watch?utm_content=DAGPm2sqW40&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 ## Introduction
 

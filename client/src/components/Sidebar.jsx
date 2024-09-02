@@ -18,12 +18,17 @@ import {
   PointOfSaleOutlined,
   TodayOutlined,
   PieChartOutlined,
+  HomeOutlined,
 } from "@mui/icons-material";
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import FlexBetween from "./FlexBetween";
 
 const navItems = [
+  {
+    text: "Dashboard",
+    icon: <HomeOutlined />,
+  },
   {
     text: "Transactions",
     icon: <ReceiptLongOutlined />,

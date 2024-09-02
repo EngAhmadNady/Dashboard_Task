@@ -7,11 +7,16 @@ export const api = createApi({
     "User",
     "Transactions",
     "Sales",
+    "Dashboard",
   ],
   endpoints: (builder) => ({
     getUserById: builder.query({
       query: (id) => `general/user/${id}`,
       providesTags: ["User"],
+    }),
+    getDashboard: builder.query({
+      query: () => `general/dashboard`,
+      providesTags: ["Dashboard"],
     }),
     getTransactions: builder.query({
       query: ({ page, pageSize, sort, search }) => ({
@@ -29,12 +34,13 @@ export const api = createApi({
     getSales: builder.query({
       query: () => `sales/sales`,
       providesTags: ["Sales"],
-    }),
+    })
   }),
 });
 
 export const {
   useGetUserByIdQuery,
+  useGetDashboardQuery,
   useGetTransactionsQuery,
   useGetSalesQuery,
 } = api;
